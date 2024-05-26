@@ -6,7 +6,7 @@ sudo apt-add-repository --yes --update ppa:ansible/ansible
 sudo apt update
 sudo apt install ansible -y
 sudo apt install nginx -y
-sudo apt install python-apt -y
+sudo apt install python3-apt -y
 sudo apt install stress -y 
 sudo apt install git -y  
 sudo git clone https://github.com/saikiranpi/autoscaling_testing.git /myrepo
