@@ -14,7 +14,7 @@ sudo git clone https://github.com/saikiranpi/autoscaling_testing.git /myrepo
 ######GIVE ONLY ABOVE IN THE USER DATA FOR AMI IMAGE FOR AWS AUTOSCALING##########
 #
 #####GIVE BELOW IN THE LAUNCH CONFIG USERDATA#####################################
-ansible-playbook /myrepo/playbook.yaml
+sudo ansible-playbook /myrepo/playbook.yaml
 
 ######GIVE BELOW IN THE CUSTOM DATA OF AZURE VMSSS################################
 #cloud-config
